@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+.navbar ul li a{
+      /*  background-color: rgba(0,0, 0, 0.75);
+*/
+    text-decoration: none;
+    color:white;
+    padding: 8px 25px;
+    transition: all 0.5s ease;
+
+}
+.navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+
+
+}
+.Socials{
+    background-color: black;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    /*background-color: black ;*/
+    height: 840px;
+    justify-content: center;
+    align-items: right;
+    
+
+}
+#home::before{
+    content:"";
+    position: absolute;
+    top:0;
+    right: 0;
+    background: url('project-bg_cleanup.png') no-repeat center center/cover;
+    height:900px;
+    width: 100%;
+    z-index: -1;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}   
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+.btn{
+    background-color: rgb(127,96,164);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    border-style: 50px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+
+}
+.try{
+   text-align: center;
+   font-size:50px ;
+}
+.btn:hover{
+    cursor: pointer;
+    color: rgb(202,221,250) ;
+    background-color:black;
+    font-weight: 100;
+    box-shadow: 0 0 10px white;
+    transition: 0.5s ease;
+
+}
+#about{
+    background-color: #ae8bbd;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 80px;
+    font-size: 30px;
+   
+}
+#pic{
+    display:flex
+}
+#pic img{
+    width:600px;
+    height:400px;
+    border-radius: 50px;
+    border: 20px;
+    border-color: black;
+
+}
+#intro{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
+
+.b1{
+    padding: 40px;
+    border-radius: 20px;
+    margin: 50px;
+    
+   text-align: center;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+   
+
+    justify-content: center;
+}
+.b1:hover{
+    background-color: aqua;
+}
+.second{
+    text-align: center;
+ 
+}
+
+#skill{
+    display:flex;
+    background-color:#503992;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+
+ 
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+
+}
+#contact{
+    align-items: center;
+    text-align: center;
+    background-color:black;
+
+
+}
+#he1{
+    padding: 30px;
+   font-size: 50px;
+   color: white;
+}
+
+
+
+
+
+
